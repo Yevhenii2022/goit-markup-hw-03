@@ -1,0 +1,238 @@
+:root {
+	--primery-text-color: #757575;
+	--title-text-color: #212121;
+	--hover-text-color: #2196f3;
+	--hero-text-color: #ffffff;
+	--address-text-color: rgba(255, 255, 255, 0.6);
+	--primery-bleck-color: #2f303a;
+	--main-background-color: #f5f5f5;
+	--section-background-color: #f5f4fa;
+	--borders-color: #eeeeee;
+	--logo-bleck-color: #000000;
+}
+
+body {
+	background-color: var(--hero-text-color);
+	color: var(--primery-text-color);
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;	
+	letter-spacing: 0.03em;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Logo */
+.logo {
+	color: var(--hover-text-color);
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: calc(31/26);
+	line-height: 1.19;
+}
+
+.logo-span {
+	color: var(--logo-bleck-color);
+}
+
+.logo-footer {
+	color: var(--hero-text-color);
+}
+
+/* Site nav */
+.site-nav a {
+	color: var(--title-text-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+	color: var(--hover-text-color);
+}
+
+.contacts a {
+	color: var(--primery-text-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+	color: var(--hover-text-color);
+}
+
+/* Hero */
+.hero {
+	background: var(--primery-bleck-color);
+}
+
+.hero-title {
+	color: var(--hero-text-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+/* Button */
+.button {
+	cursor: pointer;
+	border: none;
+	font-family: inherit;
+}
+
+.button:hover,
+.button:focus {
+	color: var(--hero-text-color);
+	background-color: var(--hover-text-color);
+}
+
+.hero-button {
+	color: var(--hero-text-color);
+	background-color: var(--hover-text-color);
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+
+.portfolio-button {
+	color: var(--title-text-color);
+	background-color: var(--section-background-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+}
+
+/* Work */
+.work {
+	background-color: var(--main-background-color);
+}
+
+.preference-title {
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.preference-text {
+	line-height: calc(24/14);
+}
+
+.work-title {
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+}
+
+/* Our team */
+.team {
+	background-color: var(--section-background-color);
+}
+
+.team-color {
+	background-color: var(--hero-text-color);
+}
+
+.team-title {
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+}
+
+.team-personal {
+	color: var(--title-text-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
+
+.team-text {
+	color: var(--primery-text-color);
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
+
+/* Footer */
+.address {
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+.location {
+	color: var(--hero-text-color);
+}
+
+.contacts-footer {
+	color: var(--address-text-color);
+}
+
+.location:hover,
+.location:focus {
+	color: var(--hover-text-color);
+}
+
+.contacts-footer:hover,
+.contacts-footer:focus {
+	color: var(--hover-text-color);
+}
+
+/* Portfolio page */
+.portfolio {
+	background-color: var(--main-background-color);
+}
+
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+.portfolio-title {
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+	color: var(--primery-text-color);
+	font-size: 16px;
+	line-height: 1.88;
+}
