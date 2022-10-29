@@ -11,20 +11,84 @@
 	--logo-bleck-color: #000000;
 }
 
+/* Base styles */
 body {
 	background-color: var(--hero-text-color);
 	color: var(--primery-text-color);
 	font-family: "Roboto", sans-serif;
-	font-size: 14px;	
+	font-size: 14px;
 	letter-spacing: 0.03em;
+}
+
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
 }
 
 a {
 	text-decoration: none;
+	color: currentColor;
 }
 
 ul {
 	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+/* Button */
+.button {
+	cursor: pointer;
+	border: none;
+	font-family: inherit;
+}
+
+.button:hover,
+.button:focus {
+	color: var(--hero-text-color);
+	background-color: var(--hover-text-color);
+}
+
+.hero-button {
+	color: var(--hero-text-color);
+	background-color: var(--hover-text-color);
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+
+.portfolio-button {
+	color: var(--title-text-color);
+	background-color: var(--section-background-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
 }
 
 /* Logo */
@@ -33,7 +97,7 @@ ul {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 26px;
-	line-height: calc(31/26);
+	line-height: calc(31 / 26);
 	line-height: 1.19;
 }
 
@@ -87,40 +151,6 @@ ul {
 	text-transform: uppercase;
 }
 
-/* Button */
-.button {
-	cursor: pointer;
-	border: none;
-	font-family: inherit;
-}
-
-.button:hover,
-.button:focus {
-	color: var(--hero-text-color);
-	background-color: var(--hover-text-color);
-}
-
-.hero-button {
-	color: var(--hero-text-color);
-	background-color: var(--hover-text-color);
-	font-family: inherit;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.88;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.06em;
-}
-
-.portfolio-button {
-	color: var(--title-text-color);
-	background-color: var(--section-background-color);
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.62;
-	text-align: center;
-}
-
 /* Work */
 .work {
 	background-color: var(--main-background-color);
@@ -136,7 +166,7 @@ ul {
 }
 
 .preference-text {
-	line-height: calc(24/14);
+	line-height: calc(24 / 14);
 }
 
 .work-title {
