@@ -167,6 +167,10 @@ img {
 	padding-bottom: 32px;
 }
 
+.site-nav .nav-link.current {
+	color: var(--hover-text-color);
+}
+
 .contacts {
 	display: flex;
 	margin-left: auto;
